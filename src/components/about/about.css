@@ -15,7 +15,8 @@
   
   .a-right {
     flex: 1;
-    color: antiquewhite;
+    /* color: antiquewhite; */
+    color: rgb(12, 10, 10);
     padding: 50px;
   }
   
