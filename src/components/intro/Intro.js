@@ -1,7 +1,13 @@
 import "./intro.css";
-import Yoda from "../../img/the-guy.png"
+import Yoda from "../../img/the-guy.png";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 // POPRAW TE NIEDOJEBANE PROCENTOWE%%% WARTOSCI W CSSIE
 function Intro() {
+
+  const theme = useContext(ThemeContext);
+  // const darkMode = theme.state.darkMode;
+
   return (
     <div className="i">
       <div className="i-left">
@@ -9,12 +15,12 @@ function Intro() {
           <p className="i-intro"> Siema Kurwa</p>
           <p className="i-name"> Twoja stara</p>
           <div className='i-title'>
-              <div className='i-title-wrapper'>
-                  <div className='i-title-item'>Web Developer</div>
-                  <div className='i-title-item'>Content Creator</div>
-                  <div className='i-title-item'>UI/UX Designer</div>
-                  <div className='i-title-item'>QA Tester</div>
-                  <div className='i-title-item'>Coppy Writter</div>
+              <div className='i-title-wrapper' >
+                  <div style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }}  className='i-title-item'>Web Developer</div>
+                  <div style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }} className='i-title-item'>Content Creator</div>
+                  <div style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }} className='i-title-item'>UI/UX Designer</div>
+                  <div style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }} className='i-title-item'>QA Tester</div>
+                  <div style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }} className='i-title-item'>Coppy Writter</div>
               </div>
           </div>
           <p className='i-desc'>
@@ -80,7 +86,9 @@ function Intro() {
         </svg>
       </div>
       <div className="i-right">
-          <div className='i-bg'></div>
+          <div
+          style={{ backgroundColor: theme.state.darkMode ? "#228B22" : "#FDF500" }}
+          className='i-bg'></div>
           <img src={Yoda} alt='' className="i-img"></img>
       </div>
     </div>

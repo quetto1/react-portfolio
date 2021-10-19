@@ -5,7 +5,6 @@
     align-items: center;
     text-align: center;
     /* color: azure; */
-    color: black;
 }
 
 .pl-texts{
@@ -27,3 +26,43 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+span {
+    font-size: inherit;
+  }
+
+  .ityped-cursor {
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+      50%{
+          opacity: 1;
+      }
+      100%{
+          opacity: 0;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+        .pl {
+          padding: 10px;
+        }
+      
+        .pl-texts {
+          width: 100%;
+        }
+      
+        .pl-desc {
+          display: none;
+        }
+
+        .pl-title{
+            margin-top: 110px;
+            font-size: 28px;
+            font-weight: 400;
+        }
+        span {
+            font-size: inherit;
+          }
+      }

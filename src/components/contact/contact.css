@@ -5,7 +5,7 @@
 .c-bg{
     width: 20px;
     height: 100%;
-    background-color: seagreen;
+    background-color: #FDF500;
     position: absolute;
 }
 
@@ -58,6 +58,7 @@ input{
     height: 50px;
     border: none;
     border-bottom: 1px solid black;
+    color: black;
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
@@ -76,6 +77,42 @@ button{
     font-size: 16px;
     font-weight: 600;
     background-color: #FDF500;
-    color:black;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .c-wrapper {
+      flex-direction: column;
+      padding: 0px 50px;
+    }
+  
+    .c-title {
+      font-size: 30px;
+    }
+  
+    .c-info-item {
+      margin: 20px 0px;
+      width: 100%;
+    }
+  
+    .c-desc {
+      display: none;
+    }
+  
+    form {
+      margin-top: 0px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    input {
+      width: 35%;
+      height: 40px;
+      margin: 10px;
+      margin-left: 0;
+    }
+  
+    button {
+      margin-top: 10px;
+    }
+  }

@@ -28,9 +28,7 @@ const About = () => {
           odio, bibendum id dui a, eleifend fermentum nisi. Nulla ultricies,
           tortor eu tristique accumsan, felis dui scelerisque felis, et lobortis
           odio erat blandit lorem. Nullam sed ligula commodo, pharetra risus
-          non, placerat est. Morbi ac pharetra erat, vel imperdiet nulla. Etiam
-          fringilla odio nec scelerisque dictum. Phasellus consequat eleifend
-          pellentesque.
+          non, placerat est. 
         </p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
