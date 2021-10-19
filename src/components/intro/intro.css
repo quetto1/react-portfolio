@@ -109,9 +109,7 @@
     }
 
     .i-img {
-
-    bottom: 0;
-        left: 40px;
+      object-fit: contain;
       }
     
   }
