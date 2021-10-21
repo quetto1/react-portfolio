@@ -32,11 +32,13 @@ function ProductList() {
           ></span>
         </h1>
         <p className="pl-desc">
-          Here a present my projects that I've been working on in the past. I
-          was working as a front end developer in Wedio and in Soniq Soft. With
-          digital guest I was working as a QA Tester and bug fixer. I was
-          involved in development of these 3 websites, so stop by for a while
-          and check them out!
+          I am most proficcient in React and Vue. This website itself is written
+          in React, and 2 out of 3 previos projects I have worked with
+          proffessionaly have been made using Vue. Here is a presentation of my
+          projects that I've been working on in the past. I was working as a
+          FrontEnd developer in Wedio and in SoniqSoft. At Digital Guest I was
+          working as a QA Tester and bug fixer. I was involved in development of
+          these 3 websites, so stop by for a while and check them out!
         </p>
       </div>
       <div className="pl-list">
