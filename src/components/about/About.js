@@ -1,5 +1,5 @@
 import "./about.css";
-import Award from "../../img/vueReact.png";
+import Award from "../../img/technologies.png";
 import Me2 from "../../img/me2.png";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
@@ -24,8 +24,7 @@ const About = () => {
         </h1>
         <p className="a-sub">
           “We keep moving forward, opening new doors, and doing new things
-          because we’re curious and curiosity keeps leading us down new paths.”
-          <br />~ Walt Disney
+          because we’re curious and curiosity keeps leading us down new paths.” ~ Walt Disney
         </p>
         <p className="a-desc">
           I'm a Web development student at Business Academy Aarhus with a
