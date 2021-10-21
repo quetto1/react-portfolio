@@ -1,36 +1,21 @@
-import pinkGuy from '../../../img/pinkGuy.png';
-import VanillaVillain from '../../../img/vvNoBg.png';
-import Netflix from '../../../img/Netflix.png';
+import dgCunt from '../../../img/websites-img/dgCunt.png';
+import Soniq from '../../../img/websites-img/Soniq.png';
+import Wedio from '../../../img/websites-img/Wedio.png';
 
 export const products = [
     {
       id: 1,
-      img: "https://www.vhv.rs/dpng/d/418-4182680_pink-guy-png-pink-guy-logo-png-transparent.png",
-      link: "https://www.google.com/",
+      img: Wedio,
+      link: "https://www.wedio.com/dk",
     },
     {
       id: 2,
-      img: VanillaVillain,
-      link: "https://www.google.com/",
+      img: dgCunt,
+      link: "https://digitalguest.com/",
     },
     {
       id: 3,
-      img: Netflix,
-      link: "https://www.google.com/",
-    },
-    {
-      id: 4,
-      img: pinkGuy,
-      link: "https://www.google.com/",
-    },
-    {
-      id: 5,
-      img: pinkGuy,
-      link: "https://www.google.com/",
-    },
-    {
-      id: 6,
-      img: pinkGuy,
-      link: "https://www.google.com/",
-    },
+      img: Soniq,
+      link: "https://soniqsoft.com/pl",
+    }
   ];

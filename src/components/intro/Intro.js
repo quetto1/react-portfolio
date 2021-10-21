@@ -4,7 +4,6 @@ import { useContext } from "react";
 import { ThemeContext } from "../../context";
 // POPRAW TE NIEDOJEBANE PROCENTOWE%%% WARTOSCI W CSSIE
 function Intro() {
-
   const theme = useContext(ThemeContext);
   // const darkMode = theme.state.darkMode;
 
@@ -12,20 +11,52 @@ function Intro() {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <p className="i-intro"> Siema Kurwa</p>
-          <p className="i-name"> Twoja stara</p>
-          <div className='i-title'>
-              <div className='i-title-wrapper' >
-                  <div style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }}  className='i-title-item'>Web Developer</div>
-                  <div style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }} className='i-title-item'>Content Creator</div>
-                  <div style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }} className='i-title-item'>UI/UX Designer</div>
-                  <div style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }} className='i-title-item'>QA Tester</div>
-                  <div style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }} className='i-title-item'>Coppy Writter</div>
+          <p
+            className="i-intro"
+            style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }}
+          >
+            Web Developer
+          </p>
+          <p className="i-name">Krzysztof Richter</p>
+          <div className="i-title">
+            <div className="i-title-wrapper">
+              <div
+                style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }}
+                className="i-title-item"
+              >
+                Web Developer
               </div>
+              <div
+                style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }}
+                className="i-title-item"
+              >
+                Content Creator
+              </div>
+              <div
+                style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }}
+                className="i-title-item"
+              >
+                UI/UX Designer
+              </div>
+              <div
+                style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }}
+                className="i-title-item"
+              >
+                QA Tester
+              </div>
+              <div
+                style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }}
+                className="i-title-item"
+              >
+                Coppy Writter
+              </div>
+            </div>
           </div>
-          <p className='i-desc'>
-              I design and develop websites for variety of people/companies, written in frameworks like React and Vue.js.
-              I also ahve a solid grasp and understanding of Content managment systems like Umbraco, Druppla and Wordpress.
+          <p className="i-desc">
+            Freelance Web Developer & Designer based in Aarhus, Denmark. I enjoy
+            building everything from small business sites to rich interactive
+            web. apps. If you are a business seeking a web presence or an
+            employer looking to hire, you can get in touch with me here.
           </p>
         </div>
         <svg
@@ -86,10 +117,13 @@ function Intro() {
         </svg>
       </div>
       <div className="i-right">
-          <div
-          style={{ backgroundColor: theme.state.darkMode ? "#228B22" : "#FDF500" }}
-          className='i-bg'></div>
-          <img src={Yoda} alt='' className="i-img"></img>
+        <div
+          style={{
+            backgroundColor: theme.state.darkMode ? "#228B22" : "#FDF500",
+          }}
+          className="i-bg"
+        ></div>
+        <img src={Yoda} alt="" className="i-img"></img>
       </div>
     </div>
   );

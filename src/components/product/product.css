@@ -40,12 +40,23 @@
 }
 
 .p:hover .p-img{
-    transform: translateY(-70%);
+    transform: translateY(-50%);
+}
+@media screen and (max-width: 1024px) {
+    .pl-list{
+        justify-content: center;
+    }
+    
+    .p {
+        width: 300px;
+        height: 200px;
+      }
 }
 
 @media screen and (max-width: 480px) {
     .p {
-      width: 40%;
-      height: 20vh;
+      justify-content: center;
+      width: 300px;
+      height: 30vh;
     }
   }

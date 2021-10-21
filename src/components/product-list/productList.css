@@ -43,10 +43,37 @@ span {
           opacity: 0;
       }
     }
-
+    @media screen and (max-width:1024px) {
+    
+      .pl {
+        margin-top: 160px;
+    padding: 0px 0px;
+      }
+      .pl-texts{
+        width: 90%;
+      }
+      .pl-title{
+        margin-top: 110px;
+        font-size: 34px;
+        font-weight: 400;
+    }
+  }
+    @media screen and (max-width:800px) {
+      .pl {
+        margin-top: 300px;
+      }
+    }
+    @media screen and (max-width:600px) {
+      .pl {
+        margin-top: 440px;
+      }
+    }
+    
     @media screen and (max-width: 480px) {
         .pl {
           padding: 10px;
+        margin-top: 0px;
+
         }
       
         .pl-texts {

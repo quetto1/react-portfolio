@@ -1,7 +1,11 @@
 import "./about.css";
-import Award from "../../img/award.png";
+import Award from "../../img/vueReact.png";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 const About = () => {
+  const theme = useContext(ThemeContext);
+
   return (
     <div className="a">
       <div className="a-left">
@@ -15,28 +19,32 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
+        <h1
+          className="a-title"
+          style={{ color: theme.state.darkMode ? "#228B22" : "#FDF500" }}
+        >
+          About Me
+        </h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          “We keep moving forward, opening new doors, and doing new things
+          because we’re curious and curiosity keeps leading us down new paths.”
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit
-          diam orci, in interdum magna iaculis sed. Vivamus feugiat rutrum leo.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec
-          augue cursus, aliquet justo vulputate, hendrerit lacus. Quisque nisl
-          odio, bibendum id dui a, eleifend fermentum nisi. Nulla ultricies,
-          tortor eu tristique accumsan, felis dui scelerisque felis, et lobortis
-          odio erat blandit lorem. Nullam sed ligula commodo, pharetra risus
-          non, placerat est. 
+          I'm an Web development student at Business Academy Aarhus.
+          As an web developer, my first love will always be crafting the
+          websites. Through content managemnts systems I was able to leverage my
+          creative and developing skills with working on projects writeen in
+          Umbraco, Drupall and Wordpress. I've expanted my toolkit with technologies liek: React, Vue, MongoDB, 
+          Kotlin Android development and more! 
         </p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
+            <h4 className="a-award-title">React & Vue</h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+              My favorites technoglies to use are React and Vue I feel the most
+              comfortable using those. This website itself is written in React,
+              and 2 out of 3 project from below are written in Vue.
             </p>
           </div>
         </div>

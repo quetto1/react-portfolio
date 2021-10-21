@@ -38,7 +38,7 @@ function Contact() {
       <div className="c-bg" style={{backgroundColor: theme.state.darkMode ? "#228B22" : "#FDF500"}}></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss yor project</h1>
+          <h1 className="c-title">Let's discuss your project</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
@@ -56,7 +56,7 @@ function Contact() {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What's your story?</b> Get in touc. Always freelancing if the
+            <b>What's your story?</b> Get in touch. Always freelancing if the
             right project comes along.
           </p>
           <form ref={formRef} onSubmit={handleSumbit}>
