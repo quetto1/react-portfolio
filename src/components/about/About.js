@@ -1,5 +1,6 @@
 import "./about.css";
 import Award from "../../img/vueReact.png";
+import Me2 from "../../img/me2.png";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
 
@@ -12,7 +13,7 @@ const About = () => {
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
-            src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src={Me2}
             alt=""
             className="a-img"
           />

@@ -81,7 +81,7 @@ span {
         }
       
         .pl-desc {
-          display: none;
+          /* display: none; */
         }
 
         .pl-title{
