@@ -45,12 +45,12 @@ function Contact() {
               +45 91953295
             </div>
             <div className="c-info-item">
-              <img src={Email} alt="" className="c-icon" />
-              richterkrzysztof89@gmail.com
-            </div>
-            <div className="c-info-item">
               <img src={Address} alt="" className="c-icon" />
               Aarhus Viby J
+            </div>
+            <div className="c-info-item">
+              <img src={Email} alt="" className="c-icon" />
+              richterkrzysztof89@gmail.com
             </div>
           </div>
         </div>
@@ -65,24 +65,28 @@ function Contact() {
               type="text"
               placeholder="Name"
               name="user_name"
+              required
             />
             <input
               style={{ backgroundColor: !darkMode && "#333", color: !theme.state.darkMode ? "white" : "black" }}
               type="text"
               placeholder="Subject"
               name="user_subject"
+              required
             />
             <input
               style={{ backgroundColor: !darkMode && "#333", color: !theme.state.darkMode ? "white" : "black" }}
-              type="text"
+              type="email"
               placeholder="Email"
               name="user_email"
+              required
             />
             <textarea
               style={{ backgroundColor: !darkMode && "#333", color: !theme.state.darkMode ? "white" : "black" }}
               rows="5"
               placeholder="Message"
               name="message"
+              required
             />
             <button 
             style={{backgroundColor: theme.state.darkMode ? "#228B22" : "#FDF500", color: theme.state.darkMode ? "white" : "black" }}

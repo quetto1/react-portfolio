@@ -55,7 +55,7 @@ function Intro() {
           <p className="i-desc">
             Freelance Web Developer & Designer based in Aarhus, Denmark. I enjoy
             building everything from small business sites to rich interactive
-            web. apps. If you are a business seeking a web presence or an
+            web apps. If you are a business seeking a web presence or an
             employer looking to hire, you can get in touch with me here.
           </p>
         </div>

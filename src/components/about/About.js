@@ -10,7 +10,9 @@ const About = () => {
   return (
     <div className="a">
       <div className="a-left">
-        <div className="a-card bg"></div>
+        <div
+        style={{ backgroundColor: theme.state.darkMode ? "#8B0000" : "#333" }}
+        className="a-card bg"></div>
         <div className="a-card">
           <img src={Me2} alt="" className="a-img" />
         </div>
