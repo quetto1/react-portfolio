@@ -18,7 +18,7 @@ function ProductList() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Websites!", "Applications!", "Projects!", "Aesthetic!"],
+      strings: ["Websites!", "Applications!", "Projects!", "Aesthetic!", "Click an check!"],
     });
   }, []);
 

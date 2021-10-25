@@ -1,5 +1,5 @@
 import "./intro.css";
-import Yoda from "../../img/the-guy.png";
+import Yoda from "../../img/developIntro.png";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
 // POPRAW TE NIEDOJEBANE PROCENTOWE%%% WARTOSCI W CSSIE

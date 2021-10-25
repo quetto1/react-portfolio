@@ -7,6 +7,8 @@
     height: 100%;
     background-color: #FDF500;
     position: absolute;
+  transition: all 0.8s ease;
+
 }
 
 .c-wrapper{
@@ -79,7 +81,8 @@ button{
     background-color: #FDF500;
     cursor: pointer;
     border-radius: 10%;
-    transition: all 1s ease;
+    transition: all 0.8s ease;
+
 }
 
 button:hover {

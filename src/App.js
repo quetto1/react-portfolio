@@ -16,6 +16,8 @@ function App() {
     <div style={{
       backgroundColor: !darkMode ? "#222" : "white",
       color: !darkMode && "white",
+  transition: "all 0.8s ease"
+
     }}>
 
       <Toggle></Toggle>
